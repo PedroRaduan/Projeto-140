@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.0/p5.js"></script>  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>p5.play.Mario</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/addons/p5.sound.min.js"></script>
+  <script src="app.js"></script>
+</head>
+<body>
+    <center>
+    <div class="cabecalho">
+        <p class="titulo">Ping Pong com IA</p>
+        <button class="btn"><a href="#demo-modal">Instruções</a></button>
+    </div>
+    <center>
+    <div id="demo-modal" class="modal">
+        <div class="modal__content">
+          <h1>Instruções</h1>
+       <br>
+          <p class="modal-text">
+            - Para mecher a barra para baixo coloque sua mão para baixo. <br> <br>
+            - Para mecher a barra para cima coloque sua mão para cima <br> <br>
+            - A bola não pode passar da barra se passar você perde
+          </p>
+          <a href="#" class="footer-btn-close"> Fechar </a>
+       
+          
+        </div>
+        
+      </div>
+    </center>
+    <center>
+      <div id="canvas"></div>
+      <button onclick="iniciar()" class="iniciar">Iniciar</button>
+    </center>
+    </center>
+</body>
+</html>
